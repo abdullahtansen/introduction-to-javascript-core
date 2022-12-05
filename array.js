@@ -5,3 +5,13 @@ var nayikas = ['mahi', 'opu', 'sabnur', 'sabana'];
 
 console.log(nayikas);
 console.log(friendsAge.length);
+
+
+
+var fruits = ['apple', 'banana', 'orange'];
+var findBanana = fruits.indexOf('banana');
+console.log(findBanana);
+fruits[1] = 'mango';
+fruits.pop();
+fruits.push('Watermelon')
+console.log(fruits);
